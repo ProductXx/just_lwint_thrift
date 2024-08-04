@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import ShopNow from "../pages/ShopNow";
-import Wishlist from "../pages/Wishlist";
+import WishList from "../pages/WishList";
 import Detail from "../pages/Detail";
 
 const routes = [
@@ -19,7 +19,7 @@ const routes = [
   {
     id: 3,
     path: "/wishlist",
-    element: <Wishlist />,
+    element: <WishList />,
   },
   {
     id: 4,

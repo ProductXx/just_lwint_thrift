@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const colors = [
+export const colors = [
   { id: 0, code: "#fff" },
   { id: 1, code: "#FF0000" },
   { id: 2, code: "#000" },
