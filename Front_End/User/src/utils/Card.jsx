@@ -13,6 +13,7 @@ const imgVar = {
     rotate: 0,
   },
 };
+
 const Card = ({ image }) => {
   const [showBtn, setShowBtn] = useState(false);
   const [showCircle, setShowCircle] = useState(false);
